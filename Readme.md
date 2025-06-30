@@ -122,3 +122,5 @@ Project-2-Scaling-of-aws-app/
 - ✅ Monitoring with CloudWatch & alarms
 - ✅ Cost estimation and phased implementation
 - ✅ LinkedIn-ready documentation and architecture diagram
+
+ Note: This project includes a complete terraform plan and CI/CD setup, but terraform apply was intentionally skipped to avoid provisioning real AWS infrastructure during testing. The GitHub Actions workflow is fully functional up to the planning stage and demonstrates all required validations.
