@@ -1,0 +1,26 @@
+# Ignore Terraform state and cache files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+crash.log
+
+# Ignore sensitive or local override files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Ignore node_modules for app
+app/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore EC2 private keys
+*.pem
