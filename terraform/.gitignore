@@ -6,7 +6,7 @@
 crash.log
 
 # Ignore sensitive or local override files
-*.tfvars
+#*.tfvars
 *.tfvars.json
 override.tf
 override.tf.json
