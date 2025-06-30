@@ -94,6 +94,8 @@ Project-2-Scaling-of-aws-app/
 
 ![Terraform plan](image.png)
 ![Github action](image-1.png)
+![image](https://github.com/user-attachments/assets/1eaebc55-f231-4dac-9399-dd1546e9b189)
+![image](https://github.com/user-attachments/assets/b71f6be1-79b3-4e70-b72d-39b5ad939988)
 ---
 
 ## 🧑‍💻 My Role
