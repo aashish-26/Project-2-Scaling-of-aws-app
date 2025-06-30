@@ -54,7 +54,7 @@ resource "aws_db_instance" "read_replica" {
   count                      = var.enable_read_replica ? 1 : 0
   identifier                 = "${var.project_name}-replica"
   instance_class             = var.replica_instance_type
-  replicate_source_db        = aws_db_instance.main.identifier
+  replicate_source_db        = aws_db_instance.main.arn
   skip_final_snapshot        = true
   db_subnet_group_name       = aws_db_subnet_group.rds_subnet_group.name
   vpc_security_group_ids     = [aws_security_group.rds_sg.id]
@@ -64,3 +64,4 @@ resource "aws_db_instance" "read_replica" {
     Name = "${var.project_name}-read-replica"
   }
 }
+
